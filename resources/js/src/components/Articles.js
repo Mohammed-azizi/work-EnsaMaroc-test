@@ -16,7 +16,9 @@ const Articles = () => {
             <h1>All Articles</h1>
             <div className="d-flex flex-wrap justify-content-center">
                 {articles.map((art) => (
+
                     <ArticleCard key={art.id} article={art} />
+                
                 ))}
             </div>
         </div>
