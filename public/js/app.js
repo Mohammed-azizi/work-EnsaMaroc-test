@@ -2197,6 +2197,10 @@ var Articles = function Articles() {
     id: 2,
     title: "Java Courses",
     content: "bla bla Java, bla bla Java"
+  }, {
+    id: 3,
+    title: "c# Courses",
+    content: "bla bla Java, bla bla c#"
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {

@@ -9,6 +9,11 @@ const Articles = () => {
             title: "Java Courses",
             content: "bla bla Java, bla bla Java",
         },
+        {
+            id: 3,
+            title: "c# Courses",
+            content: "bla bla Java, bla bla c#",
+        },
     ];
 
     return (
@@ -19,6 +24,8 @@ const Articles = () => {
 
                     <ArticleCard key={art.id} article={art} />
                 
+
+
                 ))}
             </div>
         </div>
